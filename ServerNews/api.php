@@ -5,9 +5,9 @@ header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 
 $host = 'localhost';
-$db   = 'winkera5_newsDB';
-$user = 'winkera5_admin';
-$pass = 'qwyBX2000';
+$db   = '';
+$user = '';
+$pass = '';
 $dsn = "mysql:host=$host;dbname=$db;charset=utf8";
 
 try {
